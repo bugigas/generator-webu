@@ -1,0 +1,61 @@
+#review {
+  background-image: $url_1;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    content: '';
+    background: $color_header_mask;
+  }
+
+  .container {
+    padding: 50px 20px;
+
+  }
+
+  h2 {
+    color: $color_primary;
+    font-size: 24px;
+  }
+
+  .carousel-item.active, .carousel-item-next, .carousel-item-prev {
+    display: block;
+  }
+
+  .carousel-inner {
+    max-width: 60%;
+  }
+
+  .review-par {
+    font-style: italic;
+    margin: 0;
+  }
+
+  .fa.fa-quote-right {
+    color: $color_primary;
+  }
+
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    background-image: none;
+  }
+
+  .carousel-control-prev, .carousel-control-next {
+    opacity: 1;
+  }
+
+  .fa.fa-long-arrow-left, .fa.fa-long-arrow-right {
+    color: $color_primary;
+    font-size: 18px;
+  }
+
+  .fa.fa-long-arrow-left:hover, .fa.fa-long-arrow-right:hover {
+    color: $color_navbar_span;
+  }
+}

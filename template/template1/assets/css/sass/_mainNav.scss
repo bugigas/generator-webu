@@ -1,0 +1,97 @@
+#mainNav {
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 100;
+
+  &.navbar-shrink {
+    background: $white;
+
+    #btn-shrink {
+      background: $color_primary;
+      color: $white;
+      transition: background-color .75s ease;
+      border: 2px solid $color_primary;
+      border-radius: $border-radius;
+      padding: 0 20px;
+      line-height: 40px;
+
+      &:hover {
+        background: $color_navbar_span;
+        color: $white;
+        transition: background-color .75s ease;
+        border: 2px solid $color_navbar_span;
+        border-radius: $border-radius;
+        padding: 0 20px;
+        line-height: 40px;
+      }
+    }
+  }
+
+  .navbar-toggler {
+    color: $color_primary;
+    border: 1px solid $color_primary;
+  }
+}
+
+.navbar-light {
+  .navbar-brand {
+    color: $white;
+
+    &:focus {
+      color: $color_secondary;
+    }
+  }
+
+  .navbar-nav .nav-link {
+    color: $white;
+
+    &.active {
+      background-color: transparent;
+      color: $color_primary;
+
+      &:hover {
+        color: $color_secondary;
+      }
+    }
+
+    &:hover {
+      background-color: transparent;
+      color: $color_primary;
+    }
+  }
+}
+
+.navbar-shrink.navbar-light {
+  .navbar-brand {
+    color: $color_secondary;
+  }
+
+  .navbar-nav .nav-link {
+    color: $color_secondary;
+
+    &.active {
+      background-color: transparent;
+      color: $color_primary;
+
+      &:hover {
+        background-color: transparent;
+        color: $color_secondary !important;
+      }
+    }
+
+    &:hover {
+      background-color: transparent;
+      color: $color_primary;
+    }
+  }
+}
+
+.navbar {
+  img {
+    width: 100px;
+  }
+
+  span {
+    color: $color_navbar_span;
+  }
+}

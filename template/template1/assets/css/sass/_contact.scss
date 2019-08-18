@@ -1,0 +1,110 @@
+#contact {
+  background-color: $white;
+
+  .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+  }
+
+  h2 {
+    color: $color_secondary;
+    font-size: 24px;
+    font-weight: 100 !important;
+
+    &:first-child {
+      color: $color_primary;
+      font-size: 22px;
+    }
+  }
+
+  h5 {
+    color: $color_primary;
+
+  }
+
+  .card {
+    background-color: $color_navbar_shrink;
+    box-shadow: $box-shadow-card;
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+
+
+    &:hover {
+      box-shadow: $box-shadow-card-hover;
+    }
+
+    .card-body {
+      font-weight: bold;
+    }
+  }
+
+  .social-black {
+    color: $color_secondary;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  p {
+    color: $color_gray_approx;
+    font-size: 16px;
+  }
+
+  a {
+    color: $form-a;
+
+    &:hover {
+      color: $form-a-hover;
+    }
+  }
+
+  img {
+    width: 30px;
+  }
+
+  p > i {
+    font-size: 34px;
+    color: $color_primary;
+  }
+
+  .business-hours {
+    background-color: $color_navbar_shrink;
+    box-shadow: $box-shadow-card;
+    padding: 10px 14px;
+    margin-top: -15px;
+    position: relative;
+
+    &:before {
+      content: '';
+      width: 23px;
+      height: 23px;
+      background-color: $color_navbar_shrink;
+      position: absolute;
+      top: 5px;
+      left: -12px;
+      transform: rotate(-45deg);
+      z-index: -1;
+    }
+
+    .title {
+      font-size: 20px;
+      color: $color_primary;
+      text-transform: uppercase;
+      padding-left: 5px;
+      border-left: 4px solid $color_primary;
+    }
+
+    li {
+      color: $color_gray_approx;
+      line-height: 30px;
+      border-bottom: 1px solid #333;
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+
+    .today {
+      color: $color_primary;
+    }
+  }
+}

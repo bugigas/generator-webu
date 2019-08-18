@@ -1,0 +1,106 @@
+#food-list {
+    color: black;
+    background-color: #f1f1f1;
+}
+
+#food-list .foodlist-span {
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin-top: -25px;
+    display: block
+}
+
+#food-list .foodlist-span::before, #food-list .foodlist-span::after {
+    width: calc(25% - 5px);
+    width: -webkit-calc(25% - 50px);
+    width: -moz-calc(25% - 5px);
+    display: inline-block;
+    background: #dbdbdb;
+    height: 1px;
+    content: "";
+    position: relative;
+    top: -5px
+}
+
+#food-list .foodlist-span img {
+    display: inline-block;
+    width: auto;
+    margin: 0 auto
+}
+
+#food-list .border {
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+    margin-top: 50px;
+    box-shadow: 1px 2px 7px -5px #000
+}
+
+.item-list-ingredience {
+    font-weight: 100;
+    font-size: 14px;
+    word-break: break-word;
+}
+.foodlist-h2:first-child {
+    padding:0 !important;
+}
+.foodlist-h2:not(:first-child) {
+    padding-top: 50px
+}
+
+@media (max-width: 576px) {
+    #food-list h2 {
+        font-size: 18px
+    }
+}
+
+#food-list h2 {
+    text-align: center;
+    color: #2b2b2b;
+}
+
+#food-list .item-list {
+    line-height: 25px;
+    font-size: 18px;
+    display: block;
+    max-width: 100%;
+    text-align: left;
+    margin: 0 auto;
+    padding: 2px;
+    padding-bottom: 5px;
+    color: #7f7f7f;
+    margin: 5px 0 !important
+}
+
+@media (max-width: 576px) {
+    #food-list .item-list {
+        max-width: 100% !important;
+        font-size: 14px
+    }
+
+    #food-list .item-list .item-list-name {
+        overflow: hidden;
+        width: 200px;
+    }
+}
+
+#food-list .item-list .item-list-name {
+    display: inline-block;
+    font-weight: 100;
+    color: #2b2b2b;
+    line-height: 19px;
+}
+
+#food-list .item-list .item-list-price {
+    background: url(../../assets/img/brush-stroke-banner-6.png);
+    background-repeat: no-repeat;
+    background-size: 100% 95%;
+    margin-top: -10px;
+    padding: 5px 15px;
+    color: #fff;
+    display: inline-block;
+    float: right;
+    font-weight: 100;
+    font-size: 16px;
+}

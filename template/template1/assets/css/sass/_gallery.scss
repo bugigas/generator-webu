@@ -1,0 +1,23 @@
+#gallery {
+  background: $seashell;
+
+  .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  h2 {
+    color: $color_secondary;
+  }
+  #carouselExampleIndicators{
+    .carousel-indicators{
+      bottom: -50px;
+    }
+    .carousel-indicators li {
+      width: 10px;
+      height: 10px;
+      border-radius: 100%;
+      background-color: #000;
+    }
+  }
+}

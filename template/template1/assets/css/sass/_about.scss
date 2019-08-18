@@ -1,0 +1,37 @@
+#about {
+  background-image: $url_1;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    content: '';
+    background: rgba(56, 56, 56, .9);
+  }
+
+  .container {
+    padding-top: 50px;
+  }
+img{
+  max-width: 300px;
+}
+  h2 {
+    color: $white;
+    font-size: 38px;
+    margin-bottom: 0;
+  }
+
+  p {
+    color: $color_navbar_shrink;
+    opacity: 0.6;
+    font-size: 16px;
+    font-weight: 100 !important;
+
+  }
+
+}

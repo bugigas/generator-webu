@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="79f8ad35-2171-4d1d-8a1b-ddef00ce61ed" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$red</find>
+      <find>seas</find>
+      <find>navbar-s</find>
+      <find>#rese</find>
+      <find>#reserva</find>
+      <find>#footer</find>
+      <find>border-radius: 20px 20px 20px 20px;</find>
+      <find>$font_1</find>
+      <find>$color_gray_approx</find>
+      <find>color_monza_approx</find>
+      <find>color_baltic_sea_approx</find>
+      <find>$black_10</find>
+      <find>map</find>
+      <find>stars</find>
+      <find>max</find>
+      <find>star</find>
+      <find>max-width: 767</find>
+      <find>#contact</find>
+      <find>go</find>
+      <find>btn-shrink</find>
+      <find>#about</find>
+    </findStrings>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1OgGidiQEVMF77ngClzUPZeqnd1" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pizza-delicato" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.index.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79f8ad35-2171-4d1d-8a1b-ddef00ce61ed" name="Default Changelist" comment="" />
+      <created>1559219415910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559219415910</updated>
+      <workItem from="1559219417175" duration="1194000" />
+      <workItem from="1559285470673" duration="9301000" />
+      <workItem from="1559295302554" duration="4568000" />
+      <workItem from="1559543694565" duration="17958000" />
+      <workItem from="1559631003531" duration="8905000" />
+      <workItem from="1559717420642" duration="15163000" />
+      <workItem from="1560424754403" duration="8945000" />
+      <workItem from="1560494810571" duration="14532000" />
+      <workItem from="1560760351396" duration="14910000" />
+      <workItem from="1560840892981" duration="12523000" />
+      <workItem from="1560855254185" duration="1743000" />
+      <workItem from="1560861653980" duration="8111000" />
+      <workItem from="1560927183211" duration="9000" />
+      <workItem from="1560930714564" duration="11109000" />
+      <workItem from="1560945381072" duration="3409000" />
+      <workItem from="1561013606627" duration="6846000" />
+      <workItem from="1561359593323" duration="20112000" />
+      <workItem from="1561532188043" duration="5146000" />
+      <workItem from="1561537479769" duration="4810000" />
+      <workItem from="1562572616795" duration="15630000" />
+      <workItem from="1562656107676" duration="10000" />
+      <workItem from="1562656142009" duration="552000" />
+      <workItem from="1562657745114" duration="558000" />
+      <workItem from="1562746254940" duration="1025000" />
+      <workItem from="1562830732067" duration="13776000" />
+      <workItem from="1562915199858" duration="5247000" />
+      <workItem from="1563445409931" duration="1797000" />
+      <workItem from="1564391956914" duration="1903000" />
+      <workItem from="1564646726276" duration="16890000" />
+      <workItem from="1564997712150" duration="317000" />
+      <workItem from="1564998239335" duration="701000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

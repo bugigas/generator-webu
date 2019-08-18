@@ -1,0 +1,51 @@
+@import "variables";
+
+body {
+  font-family: $font_0, $font_1;
+}
+
+@import "mainNav";
+
+@import "btn";
+
+@import "home";
+
+@import "review";
+
+@import "jidelak";
+
+@import "about";
+
+@import "gallery";
+
+@import "map";
+
+@import "contact";
+
+@import "footer";
+
+.go-to-top {
+  background: $color_primary;
+  position: fixed;
+  right: 25px;
+  bottom: -30px;
+  color: $white;
+  font-size: 2em;
+  opacity: 0;
+  cursor: pointer;
+  border-radius: 0;
+  padding: 11px;
+  width: 60px;
+  text-align: center;
+  z-index: 8888;
+  height: 60px;
+  box-shadow: 0 0 10px 1px $color_header_mask;
+
+  &.goto {
+    opacity: 1;
+    right: 25px;
+    bottom: 0;
+  }
+}
+
+@import "media";

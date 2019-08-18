@@ -1,0 +1,176 @@
+@media(max-width: 992px) {
+  #mainNav.navbar-shrink {
+    box-shadow: $box-shadow;
+  }
+}
+@media(min-width: 769px) {
+
+  #gallery{
+    .carousel-block{
+      display:none;
+    }
+  }
+}
+@media(min-width: 768px) {
+  #btn-menu-mobile {
+    display: none;
+  }
+
+}
+
+@media(max-width: 768px) {
+  .navbar {
+    img {
+      width: 60px;
+    }
+  }
+
+  #mainNav {
+    background-color: $white;
+  }
+  .navbar-light {
+    .navbar-brand {
+      color: $color_secondary;
+    }
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: $color_secondary;
+
+    &.active {
+      background-color: transparent;
+      color: $color_primary;
+
+      &:hover {
+        color: $color_secondary;
+      }
+    }
+
+    &:hover {
+      background-color: transparent;
+      color: $color_primary;
+    }
+  }
+  #home {
+    img {
+      max-width: 250px;
+    }
+
+    h1 {
+      font-size: 2.5em !important;
+    }
+  }
+  #about {
+    .col-md-6:first-child {
+      border-bottom: 1px solid $color_gray_approx;
+    }
+
+    img {
+      max-width: 250px;
+    }
+  }
+  #mobile-app {
+    img {
+      max-width: 250px;
+    }
+  }
+  #gallery{
+    .carousel-block{
+      img{
+        max-width: 300px;
+        max-height: 180px;
+      }
+    }
+    .tz-gallery{
+      display:none;
+    }
+  }
+}
+
+@media(max-width: 767px) {
+  #btn-shrink {
+    display: none;
+  }
+  .go-to-top {
+    font-size: 1em;
+    width: 40px;
+    height: 40px;
+  }
+  #about {
+
+    h2 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 0;
+    }
+
+    .container {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .col-md-6:last-child {
+      padding-top: 20px;
+    }
+  }
+  #contact {
+    iframe {
+      max-height: 250px;
+    }
+  }
+}
+
+@media(max-width: 576px) {
+  #home {
+    .divBorder {
+      .block-or {
+        display: block;
+      }
+    }
+  }
+  #review {
+    .carousel-inner {
+      max-width: 90%;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+      top: 100%;
+    }
+  }
+  #about {
+    .container {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  }
+}
+
+@media(max-width: 375px) {
+  .navbar {
+    img {
+      width: 60px;
+    }
+  }
+  .navbar-brand {
+    font-size: 14px;
+  }
+}
+
+@media(max-width: 320px) {
+  .navbar-brand {
+    font-size: 12px;
+  }
+}
+@media (max-width: 699px) {
+  .svg--lg {
+    display: none;
+  }
+}
+
+@media (min-width: 700px) {
+  .svg--sm {
+    display: none;
+  }
+}

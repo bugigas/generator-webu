@@ -1,0 +1,17 @@
+#footer {
+  background: $seashell;
+  padding: 25px 0;
+
+  p {
+    margin: 0;
+    color: $color_secondary;
+
+    a {
+      color: $color_secondary;
+
+      &:hover {
+        color: $color_primary;
+      }
+    }
+  }
+}
